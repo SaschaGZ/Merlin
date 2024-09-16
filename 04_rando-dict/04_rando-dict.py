@@ -22,7 +22,7 @@ def randomDev():
          }
     pd = randint(4, 5)
     leng = len(krewes[4])
-    indiv = randint(0, leng)
+    indiv = randint(0, leng - 1)
     return krewes[pd][indiv]
 print(randomDev())
     
