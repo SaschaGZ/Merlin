@@ -1,9 +1,10 @@
-%Sascha Gordon-Zolov
-%Team Sizzle
-%Softdev
-%K04:: Python Dictionaries and Random Selections
-%2024-9-16
-%Time spent:
+'''Sascha Gordon-Zolov
+Team Sizzle
+Softdev
+K04:: Python Dictionaries and Random Selections
+2024-9-16
+Time spent: '''
+from random import randint
 def randomDev():
     krewes = {
            4: [ 
