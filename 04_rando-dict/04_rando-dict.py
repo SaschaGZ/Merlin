@@ -3,7 +3,7 @@ Team Sizzle
 Softdev
 K04:: Python Dictionaries and Random Selections
 2024-9-16
-Time spent: '''
+Time spent: 0.6'''
 from random import randint
 def randomDev():
     krewes = {
