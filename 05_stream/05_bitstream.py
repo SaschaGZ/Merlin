@@ -3,7 +3,7 @@ Team Sizzle
 Softdev
 K04:: Python Dictionaries and Random Selections
 2024-9-17
-Time spent: '''
+Time spent: 0.5'''
 import random
 def bitstream():
     file = open("krewes.txt", "r")
