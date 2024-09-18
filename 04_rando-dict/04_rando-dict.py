@@ -20,8 +20,8 @@ def randomDev():
                 'JESSICA','JACKIE','WEN YUAN','YINWEI','TIFFANY','JAYDEN DANIEL','PRINCEDEN' 
               ]
          }
-    pd = randint(4, 5)
-    leng = len(krewes[4])
+    pd = randint(4, 5) #randint 4 or 5
+    leng = len(krewes[pd]) #size of period
     indiv = randint(0, leng - 1)
     return krewes[pd][indiv]
 print(randomDev())
