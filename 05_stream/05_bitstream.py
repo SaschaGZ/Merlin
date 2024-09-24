@@ -12,6 +12,7 @@ def bitstream():
     for i in range (0, len(l1) - 1):
         l1[i] = l1[i].split("$$$") #double array
     r = random.randint(0, len(l1) - 1)
+    print(l1)
     return ("Period: " + l1[r][0] + ", Name: " + l1[r][1] + ", Ducky: " + l1[r][2])
 
 print(bitstream())
