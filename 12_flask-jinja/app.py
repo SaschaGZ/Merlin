@@ -15,6 +15,9 @@ model_templt.html is the template to render
 foo = "foooo" tells jinja that foo is "foooo" and should be rendered as that
 collection = coll tells jinja that while rendering the page  collection refers to 
 to the list coll = [0,1,1,2,3,5,8]
+It is also worth noting that all variables must be declared. I.e. replacing "coll"
+with "collection" and not declaring collection in the render_template function
+does not loop through collection despite the list being "called."
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """
