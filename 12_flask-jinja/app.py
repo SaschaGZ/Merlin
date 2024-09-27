@@ -7,9 +7,9 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Q0:
 It would give an error if you tried to access /my_foist_template through
-local_host:5000/my_foist_template
+localhost:5000/my_foist_template
 Q1:
-local_host:5000/my_foist_template
+localhost:5000/my_foist_template
 Q2:
 model_templt.html is the template to render
 foo = "foooo" tells jinja that foo is "foooo" and should be rendered as that
