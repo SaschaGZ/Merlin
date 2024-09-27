@@ -1,4 +1,5 @@
-# Sascha Gordon-Zolov, Kyle Lee, Alex
+# Sascha Gordon-Zolov, Kyle Lee, Alex Murokh
+# ASK
 # SoftDev
 # Sep 2024
 
