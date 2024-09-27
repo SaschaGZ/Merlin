@@ -8,6 +8,8 @@
 Q0:
 It would give an error if you tried to access /my_foist_template through
 localhost:5000/my_foist_template
+Deleting render_template also brings upon the "purple screen of death," as the function
+render_tempalte is undefined. 
 Q1:
 localhost:5000/my_foist_template
 Q2:
@@ -46,7 +48,7 @@ def test_tmplt():
     #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     # Q2: What is the significance of each argument? Simplest, most concise answer best.
     #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    return render_template( 'model_tmplt.html', collection=coll, foo="fooooo")
+    return render_template( 'model_tmplt.html', foo="fooooo", collection=coll)
 
 
 if __name__ == "__main__":
