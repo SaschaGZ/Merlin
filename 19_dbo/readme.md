@@ -1,4 +1,5 @@
-<your team heading here>
+Team Sizzle
+Ziyad, Sascha, Princeden
 
 DISCOVERIES:
 ----------------------------------------------------
