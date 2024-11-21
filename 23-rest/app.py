@@ -1,8 +1,10 @@
 import requests
+from flask import Flask, render_template
+import json
 
 url = "https://api.nasa.gov/planetary/apod"
-key = open("key_nasa.txt", "r")
-api_key = key.read()
+FILE = open("key_nasa.txt", "r")
+api_key = FILE.read()
 
 dic = {
     "api_key": api_key
