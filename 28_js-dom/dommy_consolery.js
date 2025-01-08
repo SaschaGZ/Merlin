@@ -1,6 +1,6 @@
 
 
-// Team Phantom Tollbooth :: Clyde Sinclair, Fierce Dragon 
+// Team SAK :: Kyle, Sascha, Princden
 // SoftDev pd0
 // K28 -- Getting more comfortable with the dev console and the DOM
 // 2025-01-07t
@@ -25,6 +25,7 @@ var f = function(x)
 
 
 //instantiate an object
+//Works like a normal dictionary
 var o = { 'name' : 'Thluffy',
           age : 1024,
           items : [10, 20, 30, 40],
@@ -35,6 +36,7 @@ var o = { 'name' : 'Thluffy',
         };
 
 //create a new node in the tree
+//Appending stuff works kinda like python?
 var addItem = function(text)
 {
     var list = document.getElementById("thelist");
@@ -93,6 +95,7 @@ let fib = function(n) {
 
 }
 // GCD
+//Euclidean algorithm
 let gcd = function(a, b) {
 	if (a == b) {
 		return a;
@@ -103,6 +106,7 @@ let gcd = function(a, b) {
 	if (b > a) {
 		return gcd(a, b - a);
 	}
+	return 0; //necessary?
 }
 
 // In addition to the style shown above,
