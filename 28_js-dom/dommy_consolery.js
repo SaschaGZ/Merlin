@@ -113,7 +113,7 @@ let gcd = function(a, b) {
 //  you are encouraged to test drive the "arrow function syntax" as shown below.
 //  Note anything notable.
 const myFxn = (param1, param2) => { //const means the variable cannot be reassigned
-    let retval param1 + param2; //ha - like math language
+    let retval = param1 + param2; //ha - like math language
     return retval;	
 };
 
