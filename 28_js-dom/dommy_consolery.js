@@ -1,31 +1,3 @@
-/*
-  your PPTASK:
-  
-  First, familiarize yourself with the given html file for this work.
-
-      then...
-
-  Test drive each bit of code in this file,
-  and insert comments galore, indicating anything
-  you discover,
-  have questions about,
-  or otherwise deem notable.
-
-  Have the given html file open as you work.
-  
-  Write with your future self or teammates in mind.
-  
-  If you find yourself falling out of flow mode, consult 
-  - other teams
-  - MDN
-
-  A few comments have been pre-filled for you...
-  
-  (delete this block comment once you are done)
-*/
-
-
-
 
 
 // Team Phantom Tollbooth :: Clyde Sinclair, Fierce Dragon 
@@ -44,6 +16,7 @@ var j = 20;
 
 
 //assign an anonymous fxn to a var
+//Interesting notes: function cannot be used as a variable name, nor can numbers or special characters, (including emojis)
 var f = function(x) 
 {
     var j=30;
@@ -102,9 +75,35 @@ var stripe = function()
 
 //insert your implementations here for...
 // FIB
+let fact = function(n) {
+    if (n == 1) {
+        return 1;
+    }
+    return n * fact(n -1);
+}
 // FAC
-// GCD
+let fib = function(n) {
+    if (n == 0) {
+        return 0;
+    }
+    if (n == 1) {
+        return 1;
+    }
+    return fib(n-1) + fib(n-2);
 
+}
+// GCD
+let gcd = function(a, b) {
+	if (a == b) {
+		return a;
+	}
+	if (a > b) {
+		return gcd(a - b, b);
+	}
+	if (b > a) {
+		return gcd(a, b - a);
+	}
+}
 
 // In addition to the style shown above,
 //  you are encouraged to test drive the "arrow function syntax" as shown below.
