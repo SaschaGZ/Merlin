@@ -1,0 +1,94 @@
+Entires:
+
+saschaG — 2024-10-24 12:08
+Design Doc:
+    added in component map
+    added explanations for each component
+
+
+alexM, margieC — 2024-10-24 20:30
+Design Doc:
+    added prospective html files and their respective functionalities
+    added routes and roles 
+
+
+saschaG, alexM, margieC, cadenK — 2024-10-25 18:05
+Discussion + Revision:
+    discussing design doc feedback given during class
+    revising design doc
+    adding further roles + more specifics
+
+
+alexM — 2024-10-27 17:44
+Revising Design Doc:
+    changed CSVs to DB with tables
+    explained each DB table
+    revising based on feedback given in class
+
+
+margieC — 2024-10-28 09:31
+Revising Design Doc:
+    added target ship date
+    merged some HTML files with common functionalities
+    made component map bigger
+    fixed backend layout
+    changed CSV functionality to DB
+
+
+saschaG, alexM, margieC, cadenK — 2024-10-28 11:06
+    Added Finishing touches to design doc:
+        - Finalized Roles:
+            Sascha - Login/Logout Functionality + Cookies + Creating new accounts
+	        Margie - Creating new blogs/CSS
+	        Alex - Sqlite, working with the database
+	        Caden - Editing existing Blogs/Entries and CSS
+`       - Discussed the use of DB over CSV through SQL
+        - Discussed the paths at which users travel upon choosing to edit blogs, create entries, navigate pages, etc.
+        - Added more accurate language to the final document
+
+
+saschaG, alexM, margieC, cadenK — 2024-10-29 11:06
+    Starting writing code in the following html pages:
+	- LOGIN page
+	- CREATE page
+    We made a button in the login page, allowing the user to reach the create page from the login page
+    We renamed our create page to a "sign-up" page informally
+
+
+margieC — 2024-10-29 09:19
+    Updated README.md to include Install Guide and Launch Codes
+    Fixed tree structure
+
+
+alexM, margieC — 2024-10-30 11:33
+    Updated README.md, instructing users to run __init__.py and including the path to it from the cloned directory
+    Updated requirements.txt to include packages that need to be installed
+    Added team flag as a jpg file instead of just including it in the README
+
+cadenK — 2024-10-30 11:45
+	Updated README.md, making launch codes more detailed
+	External README review summary: no virtual environment setup and activation instructions, lack of detail in navigating to flask app and __init__.py
+
+
+saschaG — 2024-10-31 11:55
+    Updated README.md, added project description and site features
+
+
+margieC — 2024-11-04 11:39
+    Updated README.md, fixed launch code: added instructions for making a virtual environment
+
+
+saschaG, alexM, margieC, cadenK — 2024-11-06 11:42
+    Worked on __init__.py, rendering the login, auth, and creating account pages
+
+alexM — 2024-11-06 11:45
+    Started initializing the database
+
+cadenK - 2024-11-06 11:10
+	Worked on blog.html, create.html, edit.html, login.html, and entry.html
+
+margieC - 2024-11-07 7:40
+        Worked on sessions and login/logout functionality to remain logged in across pages 
+
+saschaG - 2024-11-07 7:45
+        Fixed viewacc
