@@ -1,6 +1,9 @@
+Sascha Gordon-Zolov, Princeden Hom
 DISCO:
-
+ - Chatbot uses incredibly complicated methods (hashing passwords?)
+ - 
+ - 
 Q/C/C:
-q0:
-q1:
-q2:
+q0: Many tries, multiple sections of code did not run entirely 
+q1: Many errors with regard to bash and password mangement, in the spirit of creating something entirely written by AI I stubbornly asked the chatbot to rewrite its own code and recognize the mistake. Needed to ask the chatbot to create a home directory, as the initially created app would not run. 
+q2: It's fairly similar! The app is rather css-less and without much spice. 

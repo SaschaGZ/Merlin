@@ -1,12 +1,12 @@
 <!doctype html>
-<title>Login</title>
-<h1>Login</h1>
+<title>Register</title>
+<h1>Register</h1>
 <form method="post">
     <label for="username">Username:</label>
     <input type="text" id="username" name="username" required>
     <label for="password">Password:</label>
     <input type="password" id="password" name="password" required>
-    <button type="submit">Login</button>
+    <button type="submit">Register</button>
 </form>
 {% with messages = get_flashed_messages() %}
     {% if messages %}
