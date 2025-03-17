@@ -1,7 +1,7 @@
 Sascha Gordon-Zolov, Princeden Hom
 DISCO:
  - Chatbot uses incredibly complicated methods (hashing passwords?)
- - 
+ - Chatbot messed up parenthesis!!
  - 
 Q/C/C:
 q0: Many tries, multiple sections of code did not run entirely 
