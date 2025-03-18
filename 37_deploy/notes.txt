@@ -28,4 +28,5 @@ NOTES
  - decided to restart :((
  - installing much faster the second time?
  - difference between http links: first is local, second is global
- - 
+ - worked the second time! (with no clear change)
+
