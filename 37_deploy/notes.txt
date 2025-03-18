@@ -1,0 +1,8 @@
+Salt and Pepper
+Mr. Mykolyk
+Software Development
+Time Spent:
+3/18/2025
+NOTES
+ - need a password for sudo apt update (despite being logged-in)
+ - 
