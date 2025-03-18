@@ -5,4 +5,27 @@ Time Spent:
 3/18/2025
 NOTES
  - need a password for sudo apt update (despite being logged-in)
+ - many libraries, all of wich rather large
+ - interesting purple terminal screen titled "Pending kernel upgrade"
+ - terminal remains purple after agreeing to the upgrade
+ - scary
+ - tab moves field to field, space selects and unselects
+ - agreed to restart services 
+ - taking time "scanning processes"
+ - froze terminal
+ - taking significant amounts of time "scanning processes" 
+ - continues asking to upgrade kernel
+ - successfully entered virtual environment
+ - wheel installed
+ - wheels replace eggs
+ - wheels are faster installations for python, "pre-built binary package format for python modules and libraries" (Geeks for Geeks) 
+ - server worked!!
+ - ran successfully
+ - configured uWSGI
+ - replace "sammy" in the example with given user
+ - scary message after running "sudo systemctl status myproject" --> forgot to change home/sammy to home/(my user)
+ - mistake found in myproject.service
+ - decided to restart :((
+ - installing much faster the second time?
+ - difference between http links: first is local, second is global
  - 
