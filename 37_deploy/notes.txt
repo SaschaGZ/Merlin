@@ -1,7 +1,7 @@
 Salt and Pepper
 Mr. Mykolyk
 Software Development
-Time Spent:
+Time Spent: 1.5 hours
 3/18/2025
 NOTES
  - need a password for sudo apt update (despite being logged-in)
@@ -29,4 +29,7 @@ NOTES
  - installing much faster the second time?
  - difference between http links: first is local, second is global
  - worked the second time! (with no clear change)
+ - remember that sammy is not sammy
+ - "your domain" is ipv4
+ - it worked! yipeee
 
