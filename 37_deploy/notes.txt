@@ -32,4 +32,11 @@ NOTES
  - remember that sammy is not sammy
  - "your domain" is ipv4
  - it worked! yipeee
-
+ - moving on to encryption
+ - NEED a domain (how to get free domain?)
+ - found a domain on digital ocean
+ - redoing nginx with new domain name
+ - restartng nginx
+ - tried running, did not work
+ - added a mapping to @ on digital ocean
+ - 
