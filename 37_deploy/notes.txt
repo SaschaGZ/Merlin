@@ -39,4 +39,24 @@ NOTES
  - restartng nginx
  - tried running, did not work
  - added a mapping to @ on digital ocean
- - 
+ - Claiming a free .TECH domain
+ - Wasn't free at first ($9 fee??)
+ - Free upon reloading the page???
+ - Website looks a lot worse
+ - Made an account, registering a domain
+ - Domain activated!
+ - It worked! Server runs on the domain name. 
+ - myproject empty the first time running nginx configuration, gilled the second time?
+ - Nginx configuration works!
+ - Accidently ran the wrong process 
+ - Immense difficulty killing certbot
+ - Found the certbot PID# by running ps - ef | grep certb
+ - Turning off droplet to try and reset certbot
+ - Turning droplet back on
+ - It worked!! Interesting experiment
+ - Certificate failed
+ - Need to verify temporary ngingx configuration by certbot 
+ - Need to activate DNS
+ - Nevermind its active?
+ - It worked!! Note that you must add domain on your droplet in the control panel
+ - Server is secured!!
